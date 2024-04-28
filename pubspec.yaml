@@ -1,0 +1,30 @@
+name: tennisconnect
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.12.2
+  firebase_core: ^2.21.0
+  pie_chart: ^5.0.0
+  video_player: ^2.2.18
+  firebase_messaging: ^14.7.3
+  flutter_local_notifications: ^9.2.0
+  timezone: ^0.8.0
+  youtube_player_flutter: 8.1.2
+  shared_preferences: ^2.0.12
+  dcdg: ^4.1.0
+  firebase_auth: 4.15.3 
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
